@@ -1,0 +1,687 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body
+{
+    display: flex;
+    justify-content: center;
+}
+
+.background
+{
+    margin-top: 25px;
+    width: 99vw;
+    height: 850px;
+    background: #eee9e9;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container
+{
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+}
+
+.logo
+{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searchInput
+{
+    background-image: url("svg/fontello/search.svg");
+    background-repeat: no-repeat;
+    background-position: 300px center;
+    padding-left: 15px;
+    border-radius: 35px;
+    background-color: #F6F6F6;
+    border: none;
+    height: 35px;
+    width: 320px;
+    font-size: 10px;
+    outline: none;
+    margin-left: 30px;
+}
+
+.logIn
+{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 11px;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+.shopList
+{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 11px;
+    margin-right: 25px;
+    font-weight: bold;
+}
+
+.icon:before
+{
+    content: "\203A";
+    color: #F6F6F6;
+}
+
+.btnBasket
+{
+    background-color: #346D99;
+    border-radius: 40px;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.basketTxt
+{
+    font-family: 'Noto Sans', sans-serif;
+    color: #F6F6F6;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.nav
+{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.navList
+{
+    margin-top: 200px;
+    margin-left: -10%;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+
+ol
+{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    color: #7e7777;
+    font-family: 'Noto Sans', sans-serif;
+    list-style-type: none;
+    font-size: 11px;
+}
+
+.boxContainer 
+{
+  display: grid;
+  justify-content: center;
+  align-self: center;
+  height: 100vh;
+  width: 1200px;
+  grid-template-columns: 667px 507px;
+  grid-template-rows: 490px;
+  grid-gap: 2%;
+  margin-top: 20px;
+  margin: 0 50;
+}
+
+.box1
+{
+  background-color: #fff;
+  padding: 25px 25px;
+}
+
+.box2
+{
+  background-color: #fff;
+  padding: 25px 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box3
+{
+  width: 1200px;
+  height: 200px;
+  background-color: #fff;
+  padding: 30px 30px;
+  
+}
+
+  .images
+  {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0 0;
+  }
+
+  .leftImages
+  {
+    height: 100%;
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .mainImage
+  {
+    height: 100%;
+    width: 80%;
+  }
+
+  .moreImg
+  {
+    width: 82px;
+    height: 81px;
+    background-color: #fff;
+    border: 2px solid #d4cdcd;
+    color: #d4cdcd;
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+  }
+
+  .circleBestseller
+  {
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    background-color: rgb(241, 119, 62);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    color: #F6F6F6;
+    position: relative;
+    top: -113%;
+    left: 87%;
+  }
+
+  .productTittle
+  {
+    width: 70%;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  
+  .idProduct
+  {
+    margin-top: 3px;
+    font-size: 11px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 5px;
+  }
+
+  .colorsTxt
+  {
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 13px;
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  .colors
+  {
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+
+  .avaiableTxt
+  {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+  .timeDeliveryTxt
+  {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
+    font-style:inherit;
+  }
+
+  .price
+  {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 370px;
+    height: 30px;
+  }
+
+  .priceTxt
+  {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 27px;
+    font-weight: bolder;
+  }
+
+  .price span
+  {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  .price p
+  {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
+    color: #b9b3b3;
+    text-decoration: none;
+    position: relative;
+  }
+
+  .price p::before
+  {
+    content: '';
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: calc( 65% - 0.8px );
+    border-bottom: 1px solid #b9b3b3;
+  }
+
+  .price div
+  {
+    width: 90px;
+    height: 30px;
+    background-color: rgb(248, 62, 62);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: #F6F6F6;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
+    margin-left: 10px;
+  }
+
+.price a
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 13px;
+  font-style:inherit;
+  margin-left: 15px;
+  align-self: center;
+}
+
+.btnsAddCart
+{
+  margin-top: 15px;
+  height: 60px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btnsAddCart input
+{
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: #F6F6F6;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  margin-left: -10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button 
+{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.btnsAddCart button
+{
+  height: 60px;
+  width: 280px;
+  border-radius: 60px;
+  border: none;
+  background-color: #346D99;
+  color: #F6F6F6;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 800;
+}
+
+.btnsAddCart a
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 13px;
+  font-style:inherit;
+  align-self: center;
+  margin-right: 15px;
+}
+
+.return
+{
+  display: flex;
+  margin-top: 18px;
+}
+
+.return img
+{
+  margin-right: 10px;
+}
+
+.return p
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.return span
+{
+  font-size: 12.5px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.freeDelivery
+{
+  display: flex;
+  margin-top: 8px;
+}
+
+.freeDelivery img
+{
+  margin-right: 10px;
+}
+
+.freeDelivery p
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.freeDelivery span
+{
+  font-size: 12.5px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.fastDelivery
+{
+  display: flex;
+  margin-top: 8px;
+}
+
+.fastDelivery img
+{
+  margin-right: 10px;
+}
+
+.fastDelivery p 
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.fastDelivery span
+{
+  font-size: 12.5px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.box3 p
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 18px;
+}
+.variants
+{
+  display: flex;
+  align-content: center;
+}
+
+.variant1
+{
+  display: flex;
+  width: 400px;
+  margin-top: 20px;
+}
+
+.variant1Info
+{
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+}
+
+.variant1Info p
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.avaiableVariant1
+{
+  display: flex;
+  margin-bottom: 3px;
+  align-content: center;
+}
+
+.variant1Info div img
+{
+  margin-right: 6px;
+}
+
+.inputAndButton1 input
+{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #F6F6F6;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+}
+
+.inputAndButton1 button
+{
+  height: 40px;
+  width: 100px;
+  border-radius: 20px;
+  border: none;
+  background-color: #346D99;
+  color: #F6F6F6;
+  font-size: 11px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 800;
+}
+
+.inputAndButton1 button:hover
+{
+  cursor: pointer;
+}
+
+.variant1Info span
+{
+  font-weight: bold;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.separateLane
+{
+  width: 0.5px;
+  height: 180px;
+  border: 1px solid #eee9e9;
+  margin-right: 20px;
+}
+
+.variant2
+{
+  display: flex;
+  width: 400px;
+  margin-top: 20px;
+}
+
+.variant2Info
+{
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+}
+
+.variant2Info p
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.avaiableVariant2
+{
+  display: flex;
+  margin-bottom: 3px;
+  align-content: center;
+}
+
+.variant2Info div img
+{
+  margin-right: 6px;
+}
+
+.inputAndButton2 input
+{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #F6F6F6;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+}
+
+.inputAndButton2 button
+{
+  height: 40px;
+  width: 100px;
+  border-radius: 20px;
+  border: none;
+  background-color: #346D99;
+  color: #F6F6F6;
+  font-size: 11px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 800;
+}
+
+.inputAndButton2 button:hover
+{
+  cursor: pointer;
+}
+
+.variant2Info span
+{
+  font-weight: bold;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.variant3
+{
+  display: flex;
+  width: 400px;
+  margin-top: 20px;
+}
+
+.variant3Info
+{
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+}
+
+.variant3Info p
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.avaiableVariant3
+{
+  display: flex;
+  margin-bottom: 3px;
+  align-content: center;
+}
+
+.variant3Info div img
+{
+  margin-right: 6px;
+}
+
+.inputAndButton3 input
+{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #F6F6F6;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+}
+
+.inputAndButton3 button
+{
+  height: 40px;
+  width: 100px;
+  border-radius: 20px;
+  border: none;
+  background-color: #346D99;
+  color: #F6F6F6;
+  font-size: 11px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 800;
+}
+
+.inputAndButton3 button:hover
+{
+  cursor: pointer;
+}
+
+.variant3Info span
+{
+  font-weight: bold;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
