@@ -114,8 +114,8 @@ body
 
 .navList
 {
-    margin-top: 200px;
-    margin-left: -10%;
+    margin-top: 150px;
+    
     width: 1200px;
     display: flex;
     justify-content: center;
@@ -162,7 +162,7 @@ ol
 
 .box3
 {
-  width: 1200px;
+  width: 1140px;
   height: 200px;
   background-color: #fff;
   padding: 30px 30px;
@@ -684,4 +684,141 @@ input::-webkit-inner-spin-button
   font-family: 'Noto Sans', sans-serif;
   font-size: 14px;
   margin-bottom: 10px;
+}
+
+.titleSecondPage
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+.separateLaneHorizontal
+{
+  display: flex;
+  margin-top: 20px;
+}
+
+.firstLane
+{
+  border: 1px solid #F6F6F6;
+  width: 490px;
+}
+
+.secondLane
+{
+  border: 1px solid #FCB243;
+  width: 210px;
+}
+
+.secondPageSet
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 950px;
+  margin-left: -100px;
+}
+
+.plus
+{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: #346D99;
+  color: #F6F6F6;
+  font-size: 22px;
+  font-weight: normal;
+  font-family: 'Noto Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 25px;
+}
+
+.secondPageSetTxt
+{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.firstTxt
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 13px;
+}
+
+.secondTxt
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: right;
+}
+
+.offer
+{
+  height: 50px;
+  width: 200px;
+  border-radius: 25px;
+  border: 2px solid #4ba5eb;
+  background-color: #fff;
+  color: #4ba5eb;
+  font-size: 12px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 800;
+  margin-left: 5px;
+}
+
+.productDescription
+{
+  display: flex;
+  margin-top: 70px;
+  width: 1200px;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+
+.productDescriptionTxtTitle
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight:initial;
+  font-size: 24px;
+  margin-left: 15px;
+}
+
+.separateLaneHorizontalV2
+{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.firstLaneV2
+{
+  border: 1px solid #F6F6F6;
+  width: 400px;
+}
+
+.secondLaneV2
+{
+  border: 1px solid #FCB243;
+  width: 200px;
+}
+
+.productDescriptionImg
+{
+  margin-top: 30px;
+  margin-right: 130px;
+}
+
+.description
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12.5px;
+  margin-left: 15px;
+  margin-top: 45px;
 }
