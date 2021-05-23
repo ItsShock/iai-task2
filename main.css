@@ -1,135 +1,134 @@
 * 
 {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 
 
 body
 {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .background
 {
-    margin-top: 25px;
-    width: 99vw;
-    height: 850px;
-    background: #eee9e9;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  margin-top: 25px;
+  width: 99vw;
+  height: 850px;
+  background: #eee9e9;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .container
 {
-    width: 1200px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    margin-top: 30px;
+  width: 1200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-top: 30px;
 }
 
 .logo
 {
-    width: 1200px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .searchInput
 {
-    background-image: url("svg/fontello/search.svg");
-    background-repeat: no-repeat;
-    background-position: 300px center;
-    padding-left: 15px;
-    border-radius: 35px;
-    background-color: #F6F6F6;
-    border: none;
-    height: 35px;
-    width: 320px;
-    font-size: 10px;
-    outline: none;
-    margin-left: 30px;
+  background-image: url("svg/fontello/search.svg");
+  background-repeat: no-repeat;
+  background-position: 300px center;
+  padding-left: 15px;
+  border-radius: 35px;
+  background-color: #F6F6F6;
+  border: none;
+  height: 35px;
+  width: 320px;
+  font-size: 10px;
+  outline: none;
+  margin-left: 30px;
 }
 
 .logIn
 {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 11px;
-    margin-left: 25px;
-    font-weight: bold;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 11px;
+  margin-left: 25px;
+  font-weight: bold;
 }
 
 .shopList
 {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 11px;
-    margin-right: 25px;
-    font-weight: bold;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 11px;
+  margin-right: 25px;
+  font-weight: bold;
 }
 
 .icon:before
 {
-    content: "\203A";
-    color: #F6F6F6;
+  content: "\203A";
+  color: #F6F6F6;
 }
 
 .btnBasket
 {
-    background-color: #346D99;
-    border-radius: 40px;
-    width: 150px;
-    height: 40px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    cursor: pointer;
+  background-color: #346D99;
+  border-radius: 40px;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
 }
 
 .basketTxt
 {
-    font-family: 'Noto Sans', sans-serif;
-    color: #F6F6F6;
-    font-size: 13px;
-    font-weight: bold;
+  font-family: 'Noto Sans', sans-serif;
+  color: #F6F6F6;
+  font-size: 13px;
+  font-weight: bold;
 }
 
 .nav
 {
-    width: 1200px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 25px;
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: bold;
-    font-size: 14px;
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .navList
 {
-    margin-top: 150px;
-    
-    width: 1200px;
-    display: flex;
-    justify-content: center;
+  margin-top: 150px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
 }
 
 ol
 {
-    width: 450px;
-    display: flex;
-    justify-content: space-between;
-    color: #7e7777;
-    font-family: 'Noto Sans', sans-serif;
-    list-style-type: none;
-    font-size: 11px;
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  color: #7e7777;
+  font-family: 'Noto Sans', sans-serif;
+  list-style-type: none;
+  font-size: 11px;
 }
 
 .boxContainer 
@@ -169,164 +168,163 @@ ol
   
 }
 
-  .images
-  {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    margin: 0 0;
-  }
+.images
+{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 0 0;
+}
 
-  .leftImages
-  {
-    height: 100%;
-    width: 16%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-  }
+.leftImages
+{
+  height: 100%;
+  width: 16%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
 
-  .mainImage
-  {
-    height: 100%;
-    width: 80%;
-  }
+.mainImage
+{
+  height: 100%;
+  width: 80%;
+}
 
-  .moreImg
-  {
-    width: 82px;
-    height: 81px;
-    background-color: #fff;
-    border: 2px solid #d4cdcd;
-    color: #d4cdcd;
-    font-size: 16px;
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 500;
-  }
+.moreImg
+{
+  width: 82px;
+  height: 81px;
+  background-color: #fff;
+  border: 2px solid #d4cdcd;
+  color: #d4cdcd;
+  font-size: 16px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 500;
+}
 
-  .circleBestseller
-  {
-    width: 90px;
-    height: 90px;
-    border-radius: 45px;
-    background-color: rgb(241, 119, 62);
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 15px;
-    color: #F6F6F6;
-    position: relative;
-    top: -113%;
-    left: 87%;
-  }
-
-  .productTittle
-  {
-    width: 70%;
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 22px;
-    font-weight: 500;
-  }
+.circleBestseller
+{
+  width: 90px;
+  height: 90px;
+  border-radius: 45px;
+  background-color: rgb(241, 119, 62);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 15px;
+  color: #F6F6F6;
+  position: relative;
+  top: -113%;
+  left: 87%;
+}
+.productTittle
+{
+  width: 70%;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+}
   
-  .idProduct
-  {
-    margin-top: 3px;
-    font-size: 11px;
-    font-family: 'Noto Sans', sans-serif;
-    margin-top: 5px;
-  }
+.idProduct
+{
+  margin-top: 3px;
+  font-size: 11px;
+  font-family: 'Noto Sans', sans-serif;
+  margin-top: 5px;
+}
 
-  .colorsTxt
-  {
-    font-family: 'Noto Sans', sans-serif;
-    margin-top: 13px;
-    font-size: 13px;
-    font-weight: bold;
-  }
+.colorsTxt
+{
+  font-family: 'Noto Sans', sans-serif;
+  margin-top: 13px;
+  font-size: 13px;
+  font-weight: bold;
+}
 
-  .colors
-  {
-    width: 90px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 15px;
-  }
+.colors
+{
+  width: 90px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
 
-  .avaiableTxt
-  {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 13px;
-    font-weight: 600;
-    margin-top: 20px;
-  }
+.avaiableTxt
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 20px;
+}
 
-  .timeDeliveryTxt
-  {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 13px;
-    font-style:inherit;
-  }
+.timeDeliveryTxt
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 13px;
+  font-style:inherit;
+}
 
-  .price
-  {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    margin-top: 20px;
-    width: 370px;
-    height: 30px;
-  }
+.price
+{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 370px;
+  height: 30px;
+}
 
-  .priceTxt
-  {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 27px;
-    font-weight: bolder;
-  }
+.priceTxt
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 27px;
+  font-weight: bolder;
+}
 
-  .price span
-  {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 13px;
-    font-weight: bold;
-  }
+.price span
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
 
-  .price p
-  {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 13px;
-    color: #b9b3b3;
-    text-decoration: none;
-    position: relative;
-  }
+.price p
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 13px;
+  color: #b9b3b3;
+  text-decoration: none;
+  position: relative;
+}
 
-  .price p::before
-  {
-    content: '';
-    width: 100%;
-    position: absolute;
-    right: 0;
-    top: calc( 65% - 0.8px );
-    border-bottom: 1px solid #b9b3b3;
-  }
+.price p::before
+{
+  content: '';
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: calc( 65% - 0.8px );
+  border-bottom: 1px solid #b9b3b3;
+}
 
-  .price div
-  {
-    width: 90px;
-    height: 30px;
-    background-color: rgb(248, 62, 62);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    color: #F6F6F6;
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 13px;
-    margin-left: 10px;
-  }
+.price div
+{
+  width: 90px
+  height: 30px;
+  background-color: rgb(248, 62, 62);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  color: #F6F6F6;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 13px;
+  margin-left: 10px;
+}
 
 .price a
 {
@@ -703,7 +701,7 @@ input::-webkit-inner-spin-button
 .firstLane
 {
   border: 1px solid #F6F6F6;
-  width: 490px;
+  width: 470px;
 }
 
 .secondLane
@@ -719,6 +717,7 @@ input::-webkit-inner-spin-button
   justify-content: space-between;
   width: 950px;
   margin-left: -100px;
+  margin-top: 15px;
 }
 
 .plus
@@ -822,3 +821,595 @@ input::-webkit-inner-spin-button
   margin-left: 15px;
   margin-top: 45px;
 }
+
+.specify
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+.specifyLists
+{
+  display: flex;
+  margin-top: 50px;
+}
+
+.firstList
+{
+  margin-right: 25px;
+  margin-left: 60px;
+}
+
+.secondList
+{
+  margin-left: 25px;
+}
+
+.firstList ul
+{
+  margin-bottom: 15px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+  text-align: right;
+}
+
+.secondList ul
+{
+  margin-bottom: 15px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.secondListFirstItem
+{
+  text-decoration: underline;
+  font-weight: normal !important;
+}
+
+.downloadFiles
+{
+  display: flex;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+  justify-content: space-between;
+  width: 400px;
+  margin-top: 35px;
+  margin-bottom: 90px;
+}
+
+.downloadFiles p
+{
+  font-weight: bold;
+}
+
+.downloadFiles span
+{
+  text-decoration: underline;
+}
+
+.secondBackground
+{
+  margin-top: 25px;
+  width: 100vw;
+  background: #eee9e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.boxContainer2
+{
+  display: grid;
+  justify-content: center;
+  align-self: center;
+  height: 400px;
+  width: 1200px;
+  grid-template-columns: 280px 280px 280px 280px;
+  grid-gap: 2%;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  margin: 0 50;
+}
+
+.boxSeparateLane
+{
+  border: 1px solid #F6F6F6;
+  width: 250px;
+  margin-top: 40px;
+}
+
+.box4
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+
+.box4 img
+{
+  margin-top: 15px;
+}
+
+.box4 span
+{
+  width: 220px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12.5px;
+}
+
+.box4 p
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12.5px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.faqTxt
+{
+  height: 160px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.faqTxt span
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 15px;
+}
+
+.faqSeparateLane
+{
+  border: 1px solid #F6F6F6;
+  width: 560px;
+}
+
+.faqTxt p
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+  margin-left: 15px;
+}
+
+.faqButton
+{
+  width: 400px;
+  height: 180px;
+  background-color: #F6F6F6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.faq
+{
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 80px;
+}
+
+.question
+{
+  height: 40px;
+  width: 160px;
+  border-radius: 20px;
+  border: 2px solid #4ba5eb;
+  background-color: #fff;
+  color: #4ba5eb;
+  font-size: 12px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 800;
+  margin-left: 5px;
+}
+
+.faqButton span
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 18px;
+  margin-left: 15px;
+}
+
+.faqButton p
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+  margin-left: 15px;
+}
+
+.faqButton button
+{
+  margin-left: 15px;
+}
+
+.opinions
+{
+  width: 1200px;
+  height: 420px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.opinionsStars
+{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: center;
+  margin-top: 80px;
+  height: 300px;
+}
+
+.opinionsStarsSelect
+{
+  display: flex;
+  width: 180px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.opinionsStarsSelect p
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.opinionsStars span
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12.5px;
+  margin-top: 5px;
+}
+
+.addOpinion
+{
+  height: 50px;
+  width: 250px;
+  border-radius: 25px;
+  border: 2px solid #4ba5eb;
+  background-color: #fff;
+  color: #4ba5eb;
+  font-size: 11px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.opinion5Star
+{
+  display: flex;
+  align-items: center;
+  width: 250px;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.opinion5StarBlue
+{
+  border: 3px solid #346D99;
+  width: 142px;
+  border-radius: 3px;
+  margin-top: -0 !important;
+}
+
+.opinion5StarGray
+{
+  border: 3px solid #eee9e9;
+  width: 32px;
+  border-radius: 3px;
+  margin-top: 0 !important;
+  margin-left: -9px;
+}
+
+.opinion5Star p
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+}
+
+.opinion4Star
+{
+  display: flex;
+  align-items: center;
+  width: 250px;
+  justify-content: space-between;
+}
+
+.opinion4StarBlue
+{
+  border: 3px solid #346D99;
+  width: 62px;
+  border-radius: 3px;
+  margin-top: 0 !important;
+}
+
+.opinion4StarGray
+{
+  border: 3px solid #eee9e9;
+  width: 112px;
+  border-radius: 3px;
+  margin-top: 0 !important;
+  margin-left: -14px;
+}
+
+.opinion4StarCount
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+}
+
+.opinion3Star
+{
+  display: flex;
+  align-items: center;
+  width: 250px;
+  justify-content: space-between;
+}
+
+.opinion3StarGray
+{
+  border: 3px solid #eee9e9;
+  width: 180px;
+  border-radius: 3px;
+  margin-top: 0 !important;
+  margin-left: -12px;
+}
+
+.opinion3Star p
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+}
+
+.opinion2Star
+{
+  display: flex;
+  align-items: center;
+  width: 250px;
+  justify-content: space-between;
+}
+
+.opinion2StarGray
+{
+  border: 3px solid #eee9e9;
+  width: 180px;
+  border-radius: 3px;
+  margin-top: 0 !important;
+  margin-left: -12px;
+}
+
+.opinion2Star p
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+}
+
+.opinion1Star
+{
+  display: flex;
+  align-items: center;
+  width: 250px;
+  justify-content: space-between;
+}
+
+.opinion1StarBlue
+{
+  border: 3px solid #346D99;
+  width: 10px;
+  border-radius: 3px;
+  margin-top: 0 !important;
+}
+
+.opinion1StarGray
+{
+  border: 3px solid #eee9e9;
+  width: 164px;
+  border-radius: 3px;
+  margin-top: 0 !important;
+  margin-left: -14px;
+}
+
+.opinion1StarCount
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+}
+
+.opinion1Stars
+{
+  display: flex;
+  align-items: center;
+  width: 110px;
+  justify-content: space-between;
+}
+
+.opinion1Stars p
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.opinionsTxt
+{
+  width: 900px;
+  height: 300px;
+  margin-top: 60px;
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.opinion1 span
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+}
+
+.signature
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+  color: #b9b3b3;
+}
+
+.opinion2 span
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+}
+
+.opinion2Stars p
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.opinion2Stars
+{
+  display: flex;
+  align-items: center;
+  width: 110px;
+  justify-content: space-between;
+}
+
+.opinion3 span
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+}
+
+.opinion3Stars p
+{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.opinion3Stars
+{
+  display: flex;
+  align-items: center;
+  width: 110px;
+  justify-content: space-between;
+}
+
+.opinion1
+{
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.opinion2
+{
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.opinion3
+{
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.opinionSeparateLane
+{
+  border: 1px solid #F6F6F6;
+  width: 850px;
+}
+
+.thridBackground
+{
+  width: 100vw;
+  background: #346D99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ededed;
+}
+
+.footer
+{
+  display: flex;
+  width: 970px;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.firstColumn
+{
+  color: #ededed;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+  justify-content: space-between;
+  height: 150px;
+}
+
+.secondColumn
+{
+  color: #ededed;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+  justify-content: space-between;
+  height: 200px;
+}
+
+.thirdColumn
+{
+  color: #ededed;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+  justify-content: space-between;
+  height: 150px;
+}
+
+.fourthColumn
+{
+  color: #ededed;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+  justify-content: space-between;
+  height: 180px;
+}
+
+.footerSeparateLane
+{
+  border: 1px solid #F6F6F6;
+  width: 740px;
+  margin-left: -10px;
+  margin-top: 2px;
+}
+
+
